@@ -1,0 +1,359 @@
+<div class="lyt-talent-list">
+  <section class="cp-section">
+    <h4 class="sec-title">Offer Extended</h4>
+    <div class="sec-cont">
+      <div class="cp-candidate-info-card">
+        <div class="col">
+          <div class="img-name-info-wrap">
+            <div class="img-wrap">
+              <img src="../../../assets/images/candidate-img.png" alt="candidate image">
+            </div>
+            <div class="name-info-wrap">
+              <h5 class="name">Anil Kapoor</h5>
+              <p class="designation">Director, Piramal Enterprises</p>
+              <p class="city-name">Kolkatta</p>
+            </div>
+          </div>
+        </div>
+        <div class="col date-wrap">
+          <div class="info-date-wrap">
+            <p class="info-title">Offer Extended on</p>
+            <p class="date">21 Jul 2020</p>
+          </div>
+          <div class="info-date-wrap">
+            <p class="info-title">Offer Accepted on</p>
+            <p class="date">23 Jul 2020</p>
+          </div>
+          <div class="info-date-wrap">
+            <p class="info-title">Date of Joining</p>
+            <p class="date">1 Sep 2020</p>
+          </div>
+        </div>
+        <div class="col date-wrap">
+          <div class="info-date-wrap joining-status">
+            <p class="info-title">Joining Status</p>
+            <div class="select-dropdown">
+              <mat-form-field appearance="fill">
+                <mat-select [(value)]="selected" [ngClass]="selected">
+                  <mat-option value="option1">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/round-thumsup-small.png" alt="">
+                    </div>
+                  </mat-option>
+                  <mat-option value="option2">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/round-thumsdown-small.png" alt="">
+                    </div>
+                  </mat-option>
+                  <mat-option value="option3">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/rework.png" alt="">
+                    </div>
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="info-date-wrap joining-status cm-text-center">
+            <p class="info-title">B.V</p>
+            <div class="select-dropdown">
+              <mat-form-field appearance="fill">
+                <mat-select [(value)]="selected2" [ngClass]="selected2">
+                  <mat-option value="option1">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/round-thumsup-small.png" alt="">
+                    </div>
+                  </mat-option>
+                  <mat-option value="option2">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/round-thumsdown-small.png" alt="">
+                    </div>
+                  </mat-option>
+                  <mat-option value="option3">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/rework.png" alt="">
+                    </div>
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+        </div>
+        <div class="col text-dropdown-wrap">
+          <div class="info-wrap">
+            <p>Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teame</p>
+          </div>
+          <div class="dropdown">
+            <button class="icon-dots" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu class="dropdown-menu-wrap" #menu="matMenu">
+              <button mat-menu-item class="menu-item">
+                <span class="text">Edit comment</span>
+              </button>
+              <span class="divider"></span>
+              <button mat-menu-item  class="menu-item">
+                <span class="text">Hide candidate</span>
+              </button>
+            </mat-menu>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cp-section mt40 mb50">
+    <h4 class="sec-title">Prospects</h4>
+    <div class="sec-cont">
+      <div class="cp-cardlist-wrap">
+        <div class="cp-card-head">
+          <div class="col">
+            <p class="head-title">Candidate Details</p>
+          </div>
+          <div class="col">
+            <p class="head-title">Interview schedule</p>
+          </div>
+          <div class="col">
+            <p class="head-title">Reference Check</p>
+          </div>
+          <div class="col">
+            <p class="head-title">comments</p>
+          </div>
+        </div>
+        <div class="card-sub-head">
+          <div class="col"></div>
+          <div class="col">
+            <div class="cp-slider">
+              <swiper
+              [slidesPerView]="4"
+              [spaceBetween]="10"
+              [navigation]="true"
+              class="slider-wrap"
+              >
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              <ng-template swiperSlide>
+                <div class="img-wrap">
+                  <img src="../../../assets/images/candidate-profile-img.png" alt="">
+                </div>
+              </ng-template>
+              </swiper>
+            </div>
+          </div>
+          <div class="col labels">
+            <div class="label">Leads</div>
+            <div class="label">Captured</div>
+          </div>
+          <div class="col"></div>
+        </div>
+        <ul class="card-list" cdkDropList (cdkDropListDropped)="drop($event)" >
+          <li class="item" *ngFor="let candidate of candidateList" cdkDrag >
+            <div class="drag-list-wrap">
+              <div class="drag-img-wrap" cdkDragHandle>
+                <img src="../../../assets/images/drag.png" alt="drag icon">
+              </div>
+              <div class="cp-candidate-info-card typ-prospects">
+                <div class="col">
+                  <div class="img-name-info-wrap">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/candidate-img.png" alt="candidate image">
+                    </div>
+                    <div class="name-info-wrap">
+                      <h5 class="name">{{candidate['name']}}</h5>
+                      <p class="designation">{{candidate['designation']}} {{candidate['company']}}</p>
+                      <p class="city-name">{{candidate['city']}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col schedule-col">
+                  <div class="img-title-info-wrap">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/thumsup.png" alt="thumsup">
+                    </div>
+                    <div class="title-info-wrap">
+                      <p class="title">Hire</p>
+                      <p class="date">1 Jul 2018</p>
+                    </div>
+                  </div>
+                  <div class="img-title-info-wrap">
+                    <div class="title-info-wrap">
+                      <p class="title" ngClass="candiate[await]">Awaiting <span class="cm-line-break">Feedback</span></p>
+                    </div>
+                  </div>
+                  <div class="img-title-info-wrap">
+                    <div class="img-wrap" [ngClass]="candidate['hireStatus'] === 'No Hire'? 'img-thumbsdown': 'img-undecided' ">
+                      <img src="{{candidate['value']}}" alt="unselect" />
+                    </div>
+                    <div class="title-info-wrap">
+                      <p class="title">{{candidate['hireStatus']}}</p>
+                      <p class="date">1 Jul 2018</p>
+                    </div>
+                  </div>
+                  <div class="img-title-info-wrap">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/calender.png" alt="calender">
+                    </div>
+                    <div class="title-info-wrap">
+                      <p class="date">1 Jul 2018</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col leads-col">
+                  <p class="leads">7</p>
+                  <p class="leads">3</p>
+                </div>
+                <div class="col text-dropdown-wrap">
+                  <div class="info-wrap">
+                    <p>Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teame</p>
+                  </div>
+                  <div class="dropdown">
+                    <button class="icon-dots" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                      <mat-icon>more_vert</mat-icon>
+                    </button>
+                    <mat-menu class="dropdown-menu-wrap" #menu="matMenu">
+                      <button mat-menu-item class="menu-item">
+                        <span class="text">Edit comment</span>
+                      </button>
+                      <span class="divider"></span>
+                      <button mat-menu-item  class="menu-item">
+                        <span class="text">Hide candidate</span>
+                      </button>
+                    </mat-menu>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="cp-section">
+    <h4 class="sec-title">Dropped</h4>
+    <div class="sec-cont">
+      <div class="cp-cardlist-wrap">
+        <ul class="card-list">
+          <li class="item">
+            <div class="">
+              <div class="cp-candidate-info-card typ-prospects">
+                <div class="col">
+                  <div class="img-name-info-wrap">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/candidate-img.png" alt="candidate image">
+                    </div>
+                    <div class="name-info-wrap">
+                      <h5 class="name">Shridhar Joshi</h5>
+                      <p class="designation">Director, Piramal Enterprises</p>
+                      <p class="city-name">Mumbai</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col schedule-col">
+                  <div class="img-title-info-wrap">
+                    <div class="img-wrap img-thumbsdown">
+                      <img src="../../../assets/images/thumsupdown.png" alt="thumsup">
+                    </div>
+                    <div class="title-info-wrap">
+                      <p class="title">No Hire</p>
+                      <p class="date">1 Jul 2018</p>
+                    </div>
+                  </div>
+                  <div class="img-title-info-wrap">
+                    <div class="img-wrap img-thumbsdown">
+                      <img src="../../../assets/images/thumsupdown.png" alt="thumsup">
+                    </div>
+                    <div class="title-info-wrap">
+                      <p class="title">No Hire</p>
+                      <p class="date">1 Jul 2018</p>
+                    </div>
+                  </div>
+                  <div class="img-title-info-wrap">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/calender.png" alt="calender">
+                    </div>
+                    <div class="title-info-wrap">
+                      <p class="date">1 Jul 2018</p>
+                    </div>
+                  </div>
+                  <div class="img-title-info-wrap">
+                    <div class="img-wrap">
+                      <img src="../../../assets/images/calender.png" alt="calender">
+                    </div>
+                    <div class="title-info-wrap">
+                      <p class="date">1 Jul 2018</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col leads-col">
+                  <p class="leads">4</p>
+                  <p class="leads">3</p>
+                </div>
+                <div class="col text-dropdown-wrap">
+                  <div class="info-wrap">
+                    <p>Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teame </p>
+                  </div>
+                  <div class="dropdown">
+                    <button class="icon-dots" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                      <mat-icon>more_vert</mat-icon>
+                    </button>
+                    <mat-menu class="dropdown-menu-wrap" #menu="matMenu">
+                      <button mat-menu-item class="menu-item">
+                        <span class="text">Edit comment</span>
+                      </button>
+                      <span class="divider"></span>
+                      <button mat-menu-item  class="menu-item">
+                        <span class="text">Hide candidate</span>
+                      </button>
+                    </mat-menu>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>

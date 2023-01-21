@@ -1,0 +1,22 @@
+.cp-header {
+  background-color: $clr-white;
+  padding: 2.5rem 1rem;
+  box-shadow: 0px 0.3rem 0.8rem rgba($clr-gray, 0.08);
+  border: 0.1rem solid rgba($clr-gray-1, 0.19);
+
+  .icon-title-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+
+    img {
+      width: 1.8rem;
+      max-height: 1.1rem;
+    }
+
+    .title {
+      @include font-source (1.6rem, 2.2rem, $font-black, $clr-black-1);
+    }
+  }
+}

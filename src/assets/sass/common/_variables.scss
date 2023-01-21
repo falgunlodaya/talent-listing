@@ -1,0 +1,40 @@
+/* colors*/
+$clr-white: #ffffff;
+$clr-white-1: #f3f3f3;
+$clr-white-2:#f2f2f2;
+$clr-black: #000000;
+$clr-black-1: #2d2d2d;
+$clr-gray: #777777;
+$clr-gray-1: #979797;
+$clr-gray-2: #8A8A8A;
+$clr-gray-3: #C3C3C3;
+$clr-gray-4: #E6E6E6;
+$clr-blue: #d4d4ff;
+
+/* fonts */
+$font:'Nunito Sans', sans-serif;
+
+/*font weight*/
+
+$font-xlight:200;
+$font-light:300;
+$font-regular:400;
+$font-semibold:600;
+$font-bold:700;
+$font-xbold:800;
+$font-black:900;
+
+
+/* breakpoints */
+
+$xl-desktop:1660px;
+$lg-desktop: 1440px;
+$md-desktop: 1240px;
+$sm-desktop: 1140px;
+$tablet: 1024px;
+$sm-tablet: 820px;
+$phone: 768px;
+$phone-xs: 640px;
+$phone-xxs: 576px;
+$phone-xxxs: 380px;
+$phone-xxxxs: 340px;

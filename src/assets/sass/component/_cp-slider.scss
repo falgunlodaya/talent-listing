@@ -1,0 +1,32 @@
+.cp-slider {
+  .slider-wrap {
+    max-width: 45rem;
+    width: 100%;
+
+    .img-wrap {
+      width: 5.6rem;
+      height: 5.6rem;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .swiper-button-prev:after, .swiper-button-next:after {
+      font-size: 13px !important;
+    }
+
+    .swiper-button-next,.swiper-button-prev {
+      color: $clr-black;
+    }
+
+    .swiper-button-next {
+      right: -10px;
+    }
+
+    .swiper-button-prev {
+      left: -10px;
+    }
+  }
+}

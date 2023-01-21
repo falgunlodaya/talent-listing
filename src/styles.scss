@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+// Import files
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
+@import "./assets/sass/common/reset";
+@import "./assets/sass/common/normalize";
+@import "./assets/sass/common/variables";
+@import "./assets//sass/common/mixin";
+@import "./assets/sass/common/elements";
+
+// Import Layouts
+@import "./assets/sass/layout/lyt-talent-list";
+
+// Import Components
+@import "./assets/sass/component/cp-header";
+@import "./assets/sass/component/cp-section";
+@import "./assets/sass/component/cp-card-head";
+@import "./assets/sass/component/cp-candidate-info-card";
+@import "./assets/sass/component/cp-cardlist-wrap";
+@import "./assets/sass/component/cp-slider";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,6 @@
+.cp-section {
+  .sec-title {
+    @include font-source(1.6rem, 20px, $font-semibold, $clr-black-1);
+    margin-bottom: 1.4rem;
+  }
+}

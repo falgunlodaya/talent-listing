@@ -1,0 +1,80 @@
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+              0 8px 10px 1px rgba(0, 0, 0, 0.14),
+              0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.card-list.cdk-drop-list-dragging .card-item:not(.cdk-drag-placeholder) {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.item {
+  margin-left: -3rem;
+  margin-right: -3rem;
+  padding: 0 3rem;
+  margin-bottom: 1.8rem;
+
+  &:hover {
+    .drag-list-wrap {
+      border: 1px solid #d4d4ff;
+    }
+    .drag-img-wrap {
+      display: block;
+    }
+  }
+
+  .drag-list-wrap {
+    position: relative;
+    border: 1px solid transparent;
+  }
+}
+
+.drag-img-wrap {
+  display: none;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: -2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.option1{
+  background:url(../../../assets/images/round-thumsup-small.png);
+  background-repeat: no-repeat;
+  background-position:left;
+  background-size:initial;
+}
+
+.option2{
+  background:url(../../../assets/images/round-thumsdown-small.png);
+  background-repeat: no-repeat;
+  background-position:left;
+  background-size:initial;
+}
+
+.option3{
+  background:url(../../../assets/images/rework.png);
+  background-repeat: no-repeat;
+  background-position:left;
+  background-size:initial;
+}
+
+.dropdown {
+  .icon-dots {
+    padding: 0;
+    width: 2.4rem;
+    height: 2.4rem;
+
+    .mat-icon {
+      color: #C3C3C3;
+    }
+  }
+}
